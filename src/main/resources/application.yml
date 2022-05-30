@@ -1,0 +1,12 @@
+Spring:
+  mail:
+    username: ***@gmail.com
+    password: *****
+    protocol: smtp
+    port: 587
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+          auth: 'true'
